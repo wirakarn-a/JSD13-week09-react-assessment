@@ -8,7 +8,7 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-2">
           <span className="text-2xl font-black tracking-wider text-amber-400">
-            48 Wirakarn A. - JSD13
+            Wirakarn A.
           </span>
           <span className="text-xs bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-mono">
             React Assessment
