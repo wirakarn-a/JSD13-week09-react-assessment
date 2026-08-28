@@ -7,11 +7,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
         <div className="flex items-center space-x-2">
-          <span className="text-2xl font-black tracking-wider text-amber-400">
+          <span className="text-2xl font-black tracking-wider">
             Wirakarn A.
-          </span>
-          <span className="text-xs bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-mono">
-            React Assessment
           </span>
         </div>
 
@@ -20,7 +17,7 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-amber-400 border-b-2 border-amber-400 pb-1 transition-all"
+                ? "text-lime-400 border-b-2 border-lime-400 pb-1 transition-all"
                 : "text-slate-300 hover:text-white transition-all"
             }
           >
@@ -30,7 +27,7 @@ const Navbar = () => {
             to="/owner"
             className={({ isActive }) =>
               isActive
-                ? "text-amber-400 border-b-2 border-amber-400 pb-1 transition-all"
+                ? "text-lime-400 border-b-2 border-lime-400 pb-1 transition-all"
                 : "text-slate-300 hover:text-white transition-all"
             }
           >

@@ -4,12 +4,12 @@ import Navbar from '../Navbar';
 
 const MainLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50">
+    <div className="min-h-screen flex flex-col bg-neutral-100 text-neutral-900 selection:bg-black selection:text-white">
       <Navbar />
       <main className="flex-grow max-w-7xl w-full mx-auto p-6">
         <Outlet />
       </main>
-      <footer className="bg-slate-900 text-slate-400 text-center py-4 text-sm border-t border-slate-800">
+      <footer className="bg-black text-neutral-400 text-center py-5 text-xs tracking-wider uppercase border-t border-neutral-900">
         © 2026 Generation Thailand - React Assessment Project
       </footer>
     </div>
