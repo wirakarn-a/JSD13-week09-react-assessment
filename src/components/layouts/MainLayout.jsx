@@ -5,7 +5,7 @@ import Navbar from '../Navbar';
 const MainLayout = () => {
   return (
     <div className="min-h-screen flex flex-col bg-neutral-100 text-neutral-900 selection:bg-black selection:text-white">
-      <Navbar />
+      <Navbar /> {/* การเรียก Navbar ไปแสดงในทุกๆหน้า */}
       <main className="flex-grow max-w-7xl w-full mx-auto p-6">
         <Outlet />
       </main>
