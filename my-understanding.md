@@ -1,9 +1,9 @@
 # Explain how and why you divided the app’s UI into components
 
 เพราะว่าถ้าเขียนทุกอย่างไว้ในไฟล์เดียว โค้ดจะยาวและทำให้อ่านยาก พอจะแก้อะไรก็ต้องไล่หาทีละบรรทัด ซึ่งทำให้ลำบากเวลาทำงานเองและทำกับกลุ่มด้วย
-    - MainLayout = กรอบที่เอาไปใช้ซ้ำทุกๆหน้า (มี Navbar และ Footer เหมือนกันหมด) ส่วนตรงกลางที่เปลี่ยนไปตามหน้าคือ <Outlet />
-    - Home.jsx / Owner.jsx = ตัวหน้าเว็บใหญ่ จะทำการเอาข้อมูลและเรียกชิ้นส่วนย่อยๆใน components มาประกอบกัน
-    - Navbar, Header, NavButton, Display, Table = ส่วนประกอบเล็กๆ ที่เอามาต่อกันเป็นหน้า
+- MainLayout = กรอบที่เอาไปใช้ซ้ำทุกๆหน้า (มี Navbar และ Footer เหมือนกันหมด) ส่วนตรงกลางที่เปลี่ยนไปตามหน้าคือ <Outlet />
+- Home.jsx / Owner.jsx = ตัวหน้าเว็บใหญ่ จะทำการเอาข้อมูลและเรียกชิ้นส่วนย่อยๆใน components มาประกอบกัน
+- Navbar, Header, NavButton, Display, Table = ส่วนประกอบเล็กๆ ที่เอามาต่อกันเป็นหน้า
 
 # What state variables did you created and why?
 
